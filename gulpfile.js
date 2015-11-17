@@ -27,8 +27,8 @@ var path = {
   serverApp: ['app.js'],
   desFolder: 'public/des/',
   devFolder: 'public/dev/',
-  jsFiles: ['public/js/*.js'],
-  cssFiles: ['public/css/*.*'],
+  jsFiles: ['public/js/**'],
+  cssFiles: ['public/css/**'],
   server: {
     baseDir: './',
     index: 'views/index.ejs',
